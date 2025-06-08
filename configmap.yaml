@@ -1,0 +1,7 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jenkins-config
+data:
+  JENKINS_HOME: "/bitnami/jenkins"
